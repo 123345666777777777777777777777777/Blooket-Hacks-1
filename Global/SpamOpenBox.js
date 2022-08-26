@@ -26,7 +26,7 @@
             name: "AES-GCM"
         }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
     };
-            let box = prompt(`Which box do you want to open? (e.g. Space)`);
+            let box = prompt(`Which box do you want to open? (e.g. Dino)`);
             let boxes = {
                 safari: 25,
                 aquatic: 20,
@@ -78,7 +78,7 @@ function footer() {
     let element = document.createElement('div');
 
     element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 4px solid rgb(15, 15, 15); background: rgb(240, 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(0, 0, 0); text-align: center;`;
-    element.innerHTML = `<p>Made by gliz <br> My <a style="color: #0000ff;" href="https://twitter.com/glizuwu" target="_blank">twitter</a></p>`;
+    element.innerHTML = `<p>Made by codemaster123puppy <br> My <a style="color: #0000ff;" href="https://githun.com/codemaster123puppy" target="_blank">github</a></p>`;
     document.body.appendChild(element);
 
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
