@@ -26,7 +26,7 @@
             name: "AES-GCM"
         }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
     };
-            let box = prompt(`Which box do you want to open? (e.g. Dino)`);
+            let box = prompt(`Which box do you pack to open? (e.g. Bot)`);
             let boxes = {
                 safari: 25,
                 aquatic: 20,
