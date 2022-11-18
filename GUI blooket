@@ -223,13 +223,14 @@ details summary ~ * {
             'Spam Open Boxes': () => {
                 let box = prompt(`Which box do you want to open? (e.g. Space)`);
                 let boxes = {
-                    safari: 25,
-                    aquatic: 20,
-                    bot: 20,
-                    space: 20,
+                    safari: 1,    
+                    aquatic: 1,
+                    bot: 1,
+                    space: 1,
                     breakfast: 15,
                     medieval: 15,
-                    wonderland: 15
+                    wonderland: 15,
+                    dino: 25
                 }
                 if (!Object.keys(boxes).includes(box.toLowerCase())) return alert('I could not find that box!');
                 let amount = prompt('How many boxes do you want to open?');
